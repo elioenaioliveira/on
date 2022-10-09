@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 100vw;  
+        margin: 0px;
+    }
+    menu{
+        display: none;
+    }
+    span#burguer{
+        display: block;
+        background-color: rgb(74, 186, 74);
+        text-align: center;
+    }
+    div#qs{
+        height: auto;
+    }
+    div#qs > div#img1{
+        display: block;
+        width: 100%;
+    }
+    div#qs > p{
+        display: block;
+        width: 100%;
+        vertical-align: left;
+        float: right;
+    }
+    input{
+        width: 100%;
+    }
+    input#senha{
+        width: 100%;
+    }
+}
