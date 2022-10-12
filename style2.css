@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 90%;
+        margin: auto; 
+    }
+    menu{
+        display: none;
+    }
+    span#burguer{
+        display: block;
+        background-color: rgb(74, 186, 74);
+        text-align: center;
+    }
+    div#qs{
+        height: auto;
+    }
+    div#qs > div#img1{
+        display: block;
+        width: 100%;
+    }
+    div#qs > p{
+        display: block;
+        width: 100%;
+        vertical-align: left;
+        float: right;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+    }
+    input#senha{
+        width: 100%;
+    }
+    label{
+        font: normal normal 0.5em arial; 
+    }
+    div#ambienteAluno > p{
+        font: normal normal 0.8em arial;
+    }
+}

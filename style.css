@@ -1,0 +1,99 @@
+/*Mobile First*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+header > div{
+    background: white url(on.png) center center no-repeat scroll;
+    background-size: contain;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+span#burguer{
+    display: none;
+}
+menu > a{
+    text-decoration: none;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    margin: 0.5%;
+    background-color: rgb(52, 145, 52);
+    border-radius: 30px;
+    font: normal normal 0.5em gray;
+    color: rgb(219, 213, 213);
+    text-align: center;
+    line-height: 40px;
+}
+h1{
+    background-color: black;
+    text-align: center;
+    color:rgb(206, 199, 199);
+    font-size:  0.9em;
+    text-shadow: 1px 1px 1px green;
+}
+div#qs{
+    height: 301px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+}
+div#img1{
+    display: inline-block;
+    background: white url(img1.png) center center no-repeat local;
+    background-size: contain;
+    width: 47%;
+    height: 299px;
+}
+div#qs > p{
+    display: inline-block;
+    padding: 8px;
+    float: right;
+    vertical-align: top;
+    font-size: 0.4em;
+    width: 53%;
+    color:white;
+    text-align: justify;
+    -webkit-margin-before: 0.1em;
+    -webkit-margin-after: 0.1em;
+}
+div#containerlogin{
+    border: 1px solid black;
+}
+label{
+    font-size: 0.8em;
+}
+input{
+    background-image: linear-gradient(to left, lightgreen, rgb(204, 213, 204));
+    width: 400px;
+    font: normal normal 0.8em arial;
+    display: inline-block;
+}
+#senha{
+    width: 488px;
+}
+div#logado{
+    display: none;
+}
+div#logado > p{
+    text-align: center;
+    font: normal normal 0.6em arial;
+}
+div#ambienteAluno{
+    background-color: rgba(143, 202, 143, 0.702);
+}
+div#ambienteAluno > p{
+    font: normal normal 0.8em arial;
+}
+div#iAluno{
+    background: green url() center center no-repeat;
+    
+}
