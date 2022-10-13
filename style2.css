@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 95%;
+        margin: auto;
+        
+    }
+    header{
+        width: 100vw;
+    }
+    menu{
+        display: none;
+    }
+    span#burguer{
+        display: block;
+        background-color: rgb(74, 186, 74);
+        text-align: center;
+    }
+    div#qs{
+        height: auto;
+    }
+    div#qs > div#img1{
+        display: block;
+        width: 100%;
+        height: 250px;
+        margin: 0px;
+    }
+    menu > a{
+        display: block;
+        width: 99%;
+        border-radius: 8px
+    }
+    #aAreaAluno{
+        width: 19.8%;
+        margin: 0px;
+        font: normal normal 0.3em arial;
+        padding: 1px;
+        border: 2px solid lightblue;
+    }
+    .material-symbols-outlined{
+        width: 5px;
+        margin: auto;
+        color: lightblue;
+        text-align: center;
+    }
+    div#qs > p{
+        display: block;
+        width: 100%;
+        vertical-align: left;
+        float: right;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+    }
+    input#senha{
+        width: 100%;
+    }
+    label{
+        font: normal normal 0.5em arial; 
+    }
+    div#ambienteAluno > p{
+        font: normal normal 0.8em arial;
+    }
+    div.depoimento{
+        display: block;
+        width: 100%;
+    }
+}

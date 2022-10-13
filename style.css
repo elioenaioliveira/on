@@ -1,0 +1,164 @@
+/*Mobile First*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+}
+header > div#logo{
+    background: white url(on.png) center center no-repeat scroll;
+    background-size: contain;
+    margin: left;
+    width: 100px;
+    height: 100px;
+}
+span#burguer{
+    display: none;
+}
+menu, header{
+    margin-left: 20%;
+    margin-right: 20%;  
+}
+menu > a{
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    height: 40px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 0.6%;
+    background-color: rgb(52, 145, 52);
+    border-radius: 30px;
+    font: normal normal 0.5em gray;
+    color: rgb(219, 213, 213);
+    text-align: center;
+    line-height: 40px;
+}
+#aAreaAluno{
+    display: block;
+    height: 45px;
+    position: absolute;
+    border-radius: 8px;
+    top: 3%;
+    left: 70%;
+}
+.material-symbols-outlined{
+    
+}
+h1{
+    background-image: linear-gradient(to left, lightblue, green);
+    text-align: center;
+    color:rgb(206, 199, 199);
+    font-size:  0.9em;
+    text-shadow: 1px 1px 1px green;
+    border: 1px solid rgb(0, 120, 0);
+    margin: 0.5px;
+}
+div#qs{
+    height: 374px;
+    width: 100%;
+    background-color: aliceblue;
+    display: inline-block;
+    border: 2px solid rgba(0, 128, 0, 0.786);
+}
+div#img1{
+    display: inline-block;
+    background: white url(img1.png) center center no-repeat local;
+    background-size: contain;
+    width: 34.5%;
+    height: 370px;
+}
+div#qs > p{
+    display: inline-block;
+    padding: 18px;
+    float: right;
+    vertical-align: top;
+    font-size: 0.4em;
+    width: 65%;
+    color:black;
+    text-align: justify;
+    -webkit-margin-before: 0.1em;
+    -webkit-margin-after: 0.1em;
+    
+}
+div#containerlogin{
+    border: 1px solid black;
+}
+label{
+    font-size: 0.8em;
+}
+input{
+    background-image: linear-gradient(to left, lightgreen, rgb(204, 213, 204));
+    width: 400px;
+    font: normal normal 0.8em arial;
+    display: inline-block;
+}
+#senha{
+    width: 488px;
+}
+div#logado{
+    display: none;
+}
+div#logado > p{
+    text-align: center;
+    font: normal normal 0.6em arial;
+}
+div#ambienteAluno{
+    background-color: rgba(143, 202, 143, 0.702);
+}
+div#ambienteAluno > p{
+    font: normal normal 0.8em arial;
+}
+div#iAluno{
+    background: green url() center center no-repeat;
+    
+}
+div#depoimentos{
+    background-color: lightblue;
+    display: block;
+    margin: auto;
+    margin-left: 0px;
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 0px;
+    width: 99.8%;
+}
+div#depoimentos > h6, div#depoimentos > p{
+    font-size: 0.5em;
+    color: black;
+}
+div.depoimento{
+    background-color: #54ADF7;
+    width: 19.0%;
+    height: auto;
+    max-height: 185px;
+    border: 0.8px solid green;
+    border-radius: 6px;
+    padding: 1px;
+    margin: 0px;
+    display: inline-block;
+}
+div.depoimento > h6{
+    text-align: right;
+    font-size: 0.4em;
+    display: inline-block;
+    width: 60%;
+    
+}
+div.depoimento > p{
+    font-size: 0.3em;
+    display: block;
+    text-align: justify;
+}
+div#bola{
+    border-radius: 45%;
+    background-color: #49a09d;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    font: normal normal 0.8em arial;
+}

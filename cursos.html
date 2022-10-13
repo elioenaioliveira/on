@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body id="cursos">
+    <header>
+        <div id="logo"></div>
+    </header>
+    <hr>
+    <hr>
+
+    <menu>
+        <a href="index.html">Quem Somos</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="contato.html">Contato</a>
+        <a href="prof.html">Professores</a>
+        <a id="aAreaAluno" href="aluno.html">Área do Aluno</a>
+    </menu>
+    <hr>
+    <hr>
+    <br>
+    <h1>
+        Conheça nosso cursos!
+    </h1>
+    <!--
+    <label for="name">Nome:</label><input type="text" id="name">
+    <label for="idade">Idade:</label><input type="number" name="ida" id="idade">
+    <input type="button" id="botao" value="Enviar" onclick="storagec()">
+    -->
+
+    <div id="container">
+        <div class="geral">
+            <div id="imagemenf"></div>
+            <h6>Auxiliar de Enfermagem</h6>
+            <p>
+                Nesse curso você estará apto à atuar na área de enfermagem coolaborando para o sistema de saúde!
+            </p>
+        </div>
+
+        <div class="geral">
+            <div id="imagemmus"></div>
+            <h6>Música Classica</h6>
+            <p>
+                Nesse curso você se tornará um músico da música classica! Você terá acesso com professores com muita experiência!
+            </p>
+        </div>
+        <div class="geral">
+            <div id="imagemDir"></div>
+            <h6>Auxiliar de Escritório</h6>
+            <p>
+                Nesse curso você se tornará um Auxiliar de Direito. Um personargem importantíssimo dentro do Direito!
+            </p>
+        </div>
+        <div class="geral">
+            <div id="imagemAce"></div>
+            <h6>Controlador de Acesso</h6>
+            <p>
+                Nesse curso você se tornará um Controlador de Acesso. Você poderá ocupar um cargo importante na segurança!
+            </p>
+        </div>
+        <div class="geral">
+            <div id="imagemMus2"></div>
+            <h6>Música Erudita</h6>
+            <p>
+                Nesse curso você será um músico erudito. Preparado para tocar qualquer instrumento, como teclado, vioão e guitarra.
+            </p>
+        </div>
+        <div class="geral">
+            <div id="imagemExc"></div>
+            <h6>Excel Inicante ao Avançado</h6>
+            <p>
+                Nesse curso você será capaz de utilizar o Excel em sua total capacidade. Esse curso começa do zero, e termina em expert!
+            </p>
+        </div>
+    </div>
+    <script>
+        var botao = document.getElementById('botao');
+        function storagec(){
+            
+            if (localStorage.cont) {
+                localStorage.cont = Number(localStorage.cont)+1;
+            } else {
+               localStorage.cont = 1;
+            }
+            cad = document.getElementById('name').value + ';' + document.getElementById('idade').value;
+            localStorage.setItem("cad_"+localStorage.cont,cad);
+            botao.value = 'Enviado'
+            botao.style.background = 'black'
+            botao.style.color = 'white'
+        }
+    </script>
+</body>
+</html>
